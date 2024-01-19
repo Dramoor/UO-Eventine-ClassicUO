@@ -332,7 +332,6 @@ namespace ClassicUO.Game.Managers
             g.Add(19);
             g.Add(3);
             g.Add(36);
-            g.Add(59);
 
             Add(g);
         }
@@ -396,9 +395,6 @@ namespace ClassicUO.Game.Managers
             g.Add(45);
             g.Add(34);
             g.Add(37);
-            g.Add(58);
-            g.Add(60);
-
 
             Add(g);
         }
