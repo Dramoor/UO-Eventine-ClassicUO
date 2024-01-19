@@ -51,7 +51,7 @@ namespace ClassicUO.Assets
         private UOFileMul[] _staDifl;
 
         // cannot be a const, due to UOLive implementation
-        public static int MAPS_COUNT = 6;
+        public static int MAPS_COUNT = 10;
 
         protected MapLoader()
         {
@@ -74,7 +74,7 @@ namespace ClassicUO.Assets
         public int[,] MapBlocksSize { get; private set; }
 
         // ReSharper disable RedundantExplicitArraySize
-        public int[,] MapsDefaultSize { get; protected set; } = new int[6, 2]
+        public int[,] MapsDefaultSize { get; protected set; } = new int[10, 2]
             // ReSharper restore RedundantExplicitArraySize
             {
                 {
@@ -94,7 +94,19 @@ namespace ClassicUO.Assets
                 },
                 {
                     1280, 4096
-                }
+                },
+                {
+                    6144, 4096
+                },
+                {
+                    7168, 4096
+                },
+                {
+                    6144, 4096
+                },
+                {
+                    6144, 4096
+                },
             };
 
         public int PatchesCount { get; private set; }

@@ -105,7 +105,7 @@ namespace ClassicUO.Game.GameObjects
 
             if (fixedColor != 0)
             {
-                if (fixedColor >= 0x0BB8)
+                if (fixedColor >= 0x2710)
                 {
                     fixedColor = 1;
                 }

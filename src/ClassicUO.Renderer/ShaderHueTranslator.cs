@@ -31,6 +31,7 @@
 #endregion
 
 using Microsoft.Xna.Framework;
+using System;
 using System.Runtime.CompilerServices;
 
 namespace ClassicUO.Renderer
@@ -101,6 +102,7 @@ namespace ClassicUO.Renderer
             }
 
             hueVector.X = hue;
+           
             hueVector.Y = type;
             hueVector.Z = alpha;
 
